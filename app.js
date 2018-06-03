@@ -10,7 +10,7 @@ const firebaseAuthMiddleware = require("./config/firebase.config")
 
 let hostConfig = config.get('appConfig.hostConfig');
 
-const PORT = hostConfig.port || 3600;
+const PORT = hostConfig.port || 8080;
 
 app.use(bodyParser.json())
 
