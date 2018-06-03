@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "start": "nodemon app",
+        "start": "npm install nodemon app",
         "start:local": "export NODE_ENV=default||set NODE_ENV=default&& node app",
         "start:dev": "export NODE_ENV=dev||set NODE_ENV=dev&& node app",
         "start:stage": "export NODE_ENV=stage||set NODE_ENV=stage&& node app",
